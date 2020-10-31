@@ -1,2 +1,2 @@
-web: yarn hack
-web: knex:migrate
+web:yarn hack
+web:knex:migrate
