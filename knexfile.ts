@@ -5,11 +5,11 @@ const { DB_PORT, DB_USER, DB_PASSWORD } = process.env;
 module.exports = {
     client: 'mysql',
     connection: {
-      host: '127.0.0.1',
-      port: Number(DB_PORT),
-      user: DB_USER,
-      password: DB_PASSWORD === undefined ? '' : DB_PASSWORD,
-      database: 'trading_masters',
+      host: 'b767i9tz8gjnuwk3l6mw-mysql.services.clever-cloud.com',
+      port: 3306,
+      user: 'uhxojhpo5ngptxsl',
+      password: '6NekSxWTODhWv6opVRZ7',
+      database: 'b767i9tz8gjnuwk3l6mw',
     },
     seeds: {
         directory: path.resolve(__dirname, 'src', 'database', 'seeds'),
